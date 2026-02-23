@@ -21,11 +21,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="">
-    <header class="container mx-auto">
-      <h1 class="text-4xl font-bold text-blue-900 pt-15 pb-5">
+    <header class="container mx-auto ">
+      <h1 class="text-2xl font-bold text-blue-900 pt-15 pb-5 md:text-4xl  lg:text-4xl md:text-center text-center lg:text-left">
         Job Application Tracker
       </h1>
-      <div class="grid grid-cols-3 gap-5">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5">
         <div class="py-8 rounded-xl pl-4 shadow-xl bg-secondary/30">
           <h3 class="font-semibold text-xl">Total</h3>
           <span id="Total" class="font-bold text-2xl text-blue-900">0</span>
@@ -45,7 +45,7 @@
       </div>
     </header>
     <hr class="mt-10 text-neutral/30 border container mx-auto" />
-    <main class="container mx-auto">
+    <main class="container mx-auto px-3">
       <div class="flex justify-between pt-15 pb-6">
         <h3 class="text-2xl font-medium text-blue-900">Available Jobs</h3>
         <p class="text-gray-500 font-medium">
@@ -56,7 +56,7 @@
         </p>
       </div>
 
-      <div id="btn-Container" class="pb-5">
+      <div id="btn-Container" class="pb-5 flex flex-col md:flex-row  gap-4  ">
         <button
           onclick="btnToggle('all-Btn')"
           id="all-Btn"
@@ -93,7 +93,7 @@
       <section id="card-Section" class=" grid grid-cols-1 gap-5">
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-cyan-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out ">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class=" delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -128,7 +128,7 @@
         
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-teal-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -164,7 +164,7 @@
         </div>
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-cyan-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -198,7 +198,7 @@
         </div>
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-teal-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -232,7 +232,7 @@
         </div>
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-cyan-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -267,7 +267,7 @@
         </div>
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-teal-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -302,7 +302,7 @@
         </div>
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl  hover:bg-cyan-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
@@ -337,7 +337,7 @@
         </div>
         <div class="py-5 px-5 shadow-xl relative bg-white rounded-2xl hover:bg-teal-300 hover:bg-blur-[20px] transition hover:scale-103 duration-500 ease-in-out">
           <div
-            class=" text-end absolute top-6 rounded-full py-2 px-2 right-10 shadow-xl"
+            class=" flex justify-center items-center text-end absolute top-6 rounded-full py-0 md:py-2 px-0 md:px-2 right-4 md:right-10 leading-10 shadow-xl"
           >
             <i class="delete-Btn text-xl fa-solid fa-trash-can hover:text-red-600 hover:scale-125 
           transition duration-200 ease-in-out cursor-pointer"></i>
