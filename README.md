@@ -35,7 +35,7 @@ Answer:
 In Event Delegation, we put the event on the parent.
 The parent handles the child events.
 
-6️⃣ What is the difference between preventDefault() and stopPropagation() methods?
+5. What is the difference between preventDefault() and stopPropagation() methods?
 
 Answer:
 preventDefault() stops the default action of the element, and stopPropagation() stops the event from going parent elements.
