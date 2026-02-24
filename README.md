@@ -1,4 +1,4 @@
-📚 JavaScript DOM & Events – Short Notes
+
 1️⃣ What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
 Answer:
